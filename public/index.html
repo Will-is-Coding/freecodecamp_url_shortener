@@ -9,31 +9,42 @@
 	</head>
 
 	<header>
-		<p>Welcome, <span id="display-name"></span>!</p>
-		<a class="menu" href="/profile">Profile</a>
-		<p>|</p>
-		<a class="menu" href="/logout">Logout</a>
+		<p>Welcome!</p>
 	</header>
 
 	<body>
 		<div class="container">
 			<img src="/public/img/clementine_150.png" />
 			<br />
-			<p class="clementine-text">Clementine.js</p>
+			<p class="clementine-text">Will-is-Coding's URL Shortener built with Clementine.js</p>
 		</div>
 	
-		<div class="container">
-			<p>You have clicked the button <span id="click-nbr"></span> times.</p>
-			<br />
-			<div class="btn-container">
-				<button type="submit" class="btn btn-add">CLICK ME!</button>
-				<button class="btn btn-delete">RESET</button>
-			</div>
+		<div class="container info">
+			<h2>Example creation usage: </h2>
+			<p><a href="https://freecodecamp-url-shortener-will-is-coding.c9users.io/new/https://www.google.com" class="example-link">https://freecodecamp-url-shortener-will-is-coding.c9users.io/new/https://www.google.com</a>
+			<br/>
+			<a href="https://freecodecamp-url-shortener-will-is-coding.c9users.io/http://freecodecamp.com/news" class="example-link">https://freecodecamp-url-shortener-will-is-coding.c9users.io/http://freecodecamp.com/news</a>
+			<br/>
+			If you want to pass a site that doesn't exist (or an invalid url) for some reason you can do:
+			</br>
+			<a href="https://freecodecamp-url-shortener-will-is-coding.c9users.io/new/invalidurlhere?allow=true" class="example-link">https://freecodecamp-url-shortener-will-is-coding.c9users.io/new/invalidurlhere?allow=true</a>
+			</p>
+			
+		</div>
+		<div class="container info">
+			<h2>Example creation output: </h2>
+			<span class="example-output">{ "original_url": "http://freecodecamp.com", "short_url": "https://freecodecamp-url-shortener-will-is-coding.c9users.io/0" }</span>
+		</div>
+
+		<div class="container info">
+			<h2>Usage: </h2>
+			<a href="https://freecodecamp-url-shortener-will-is-coding.c9users.io/0" class="example-link">https://freecodecamp-url-shortener-will-is-coding.c9users.io/0</a>
 		</div>
 		
-		<script type="text/javascript" src="common/ajax-functions.js"></script>
-		<script type="text/javascript" src="controllers/clickController.client.js"></script>
-		<script type="text/javascript" src="controllers/userController.client.js"></script>
+		<div class="container info">
+			<h2>Will redirect you to: </h2>
+			<a href="http://freecodecamp.com" class="example-link">http://freecodecamp.com</a>
+		</div>
 	</body>
 
 </html>

@@ -39,6 +39,33 @@ p {
 	padding: 0;
 }
 
+.container.info {
+	text-align: left !important;
+	width: 80%;
+	margin: 0 10%;
+}
+.container.info p {
+	text-align: left;
+}
+.container.info h2 {
+	margin: 1% 0;
+}
+.example-link, a.example-link:visited {
+	text-decoration: none;
+	color: blue;
+	background-color: #f9f2f4;
+	padding: 0px 4px;
+}
+.example-link:hover {
+	text-decoration: underline;
+	background-color: #f9f2f4;
+	padding: 0px 4px;
+}
+.example-output {
+	color: red;
+	background-color: #f9f2f4;
+}
+
 /****** Header Styling ******/
 
 header p {

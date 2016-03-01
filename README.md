@@ -13,7 +13,7 @@ If you want to pass a site that doesn't exist (or an invalid url) for some reaso
 * [https://freecodecamp-url-shortener-will-is-coding.c9users.io/new/invalidurlhere?allow=true](https://freecodecamp-url-shortener-will-is-coding.c9users.io/new/invalidurlhere?allow=true)
 
 ### Example Creation Output
-`{ "original_url": "http://freecodecamp.com", "short_url": "https://freecodecamp-url-shortener-will-is-coding.c9users.io/0" }
+`{ "original_url": "http://freecodecamp.com", "short_url": "https://freecodecamp-url-shortener-will-is-coding.c9users.io/0" }`
 
 ### Usage
 [https://freecodecamp-url-shortener-will-is-coding.c9users.io/0](https://freecodecamp-url-shortener-will-is-coding.c9users.io/0)
